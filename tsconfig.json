@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "lib":["es2018"],
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "target": "es2019",
+    "outDir": "build",
+    "rootDir": "./src"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "build",
+    "config",
+    "node_modules",
+    "migrations",
+    "seeders",
+    "test/**/*.ts"
+  ]
+}
