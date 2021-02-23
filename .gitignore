@@ -1,0 +1,33 @@
+# Environment
+.env
+
+# Package managers
+node_modules
+
+# Build
+build
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Linux
+*~
+
+# OSX
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+#Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
